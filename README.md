@@ -71,13 +71,35 @@ This project explores the application of machine learning and deep learning tech
 - **Advanced Modeling**: BERT-based topic modeling  
 - **Evaluation Metrics**: Accuracy, F1-score, and other performance indicators
 
+## 📈 Model Performance Comparison
+
+### ⚙️ Traditional Machine Learning Models
+
+| Model               | Accuracy (%) |
+|---------------------|--------------|
+| Logistic Regression | 98.74        |
+| Decision Tree       | 99.51        |
+| SVM                 | 99.36        |
+| Gradient Boosting   | 99.41        |
+| XGBoost             | 99.69        |
+| Random Forest       | 99.57        |
+| Naive Bayes         | 93.06        |
+
+### 🤖 Deep Learning Models
+
+| Model | Accuracy (%) | Notes |
+|-------|--------------|-------|
+| LSTM  | 97.59        | Strong at capturing sequential dependencies |
+| GRU   | 94.99        | Slightly lower than LSTM but still effective |
+| CNN   | 98.95        | Highest accuracy; great at local pattern detection |
+
+
 ### ✅ Key Findings
-- **XGBoost** and **LSTM** models achieved high accuracy and strong generalization.
+- **XGBoost** and **CNN** models achieved high accuracy and strong generalization.
 - Combining traditional ML with DL techniques improves detection performance significantly.
 
----
 
-## 📚 Project Contents
+### 📚 Project Contents
 
 - `notebook/` – Complete codebase and exploratory analysis  
 - `project_report/` – Detailed explanation of methods, models, and findings  
@@ -101,7 +123,7 @@ pip install -r requirements.txt
 jupyter notebook
  ```
 ---
-# Skills Gained
+## 💡 Skills Gained
 - Text preprocessing & feature extraction
 - Sentiment and topic classification
 - Word embeddings & semantic representation
@@ -111,6 +133,7 @@ jupyter notebook
 - Fake news detection with classical and deep models
 
 --- 
+## 👩🏻‍💻 Author
 Developed by Araa Almarhabi as part of the Natural Language Processing course.
 
 
