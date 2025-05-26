@@ -1,10 +1,10 @@
-# 🧠 Natural Language Processing (NLP) Course
+# Natural Language Processing (NLP) Course
 
 Welcome to the **Natural Language Processing (NLP)** course repository! This repository contains a series of hands-on labs and a final project that explore core NLP concepts, techniques, and real-world applications using Python, Pandas, Scikit-learn, and Deep Learning.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 .
@@ -25,55 +25,55 @@ Welcome to the **Natural Language Processing (NLP)** course repository! This rep
 
 ---
 
-## 🧪 Labs Overview
+## Labs Overview
 
 Each lab focuses on a different aspect of NLP:
 
-### 🔹 Lab 1 – Data Analysis with Pandas
+### Lab 1 – Data Analysis with Pandas
 - Learn the foundations of data analysis using the **Pandas** library, tailored for working with text datasets.
 
-### 🔹 Lab 2 – Building an NLP Pipeline
+### Lab 2 – Building an NLP Pipeline
 - **Dataset**: Twitter  
 - **Tasks**:
   - Raw text preprocessing
   - Cleaning and normalization
   - Bag of Words (BoW) and TF-IDF feature extraction
 
-### 🔹 Lab 3 – Regex and Word Embedding
+### Lab 3 – Regex and Word Embedding
 - Use **Regular Expressions** for text pattern extraction.
 - Apply **Word2Vec** to capture semantic meaning through word embeddings.
 
-### 🔹 Lab 4 – Data-Centric vs Model-Centric Approaches
+### Lab 4 – Data-Centric vs Model-Centric Approaches
 - **Focus**: Product review classification (magazine category)
 - Understand the difference between:
   - **Data-centric** approaches: improving data quality
   - **Model-centric** approaches: enhancing model performance
 
-### 🔹 Lab 5 – Topic Modeling Using LDA
+### Lab 5 – Topic Modeling Using LDA
 - Learn how to uncover hidden topics in a text corpus using **Latent Dirichlet Allocation (LDA)**.
 
-### 🔹 Lab 6 – Generative AI Use Case
+### Lab 6 – Generative AI Use Case
 - **Task**: Summarize dialogues
 - Leverage **generative models** to understand and compress conversational content.
 
 ---
 
-## 🧾 Final Project – Fake News Detection
+## Final Project – Fake News Detection
 
 This project explores the application of machine learning and deep learning techniques for detecting fake news.
 
-### 📊 Dataset
+### Dataset
 - **Source**: Kaggle Fake News Dataset (labeled real vs fake articles)
 
-### 🛠️ Techniques Used
+### Techniques Used
 - **Text Representation**: TF-IDF, Word2Vec  
 - **Classification Models**: Logistic Regression, XGBoost  
 - **Advanced Modeling**: BERT-based topic modeling  
 - **Evaluation Metrics**: Accuracy, F1-score, and other performance indicators
 
-## 📈 Model Performance Comparison
+## Model Performance Comparison
 
-### ⚙️ Traditional Machine Learning Models
+### Traditional Machine Learning Models
 
 | Model               | Accuracy (%) |
 |---------------------|--------------|
@@ -85,7 +85,7 @@ This project explores the application of machine learning and deep learning tech
 | Random Forest       | 99.57        |
 | Naive Bayes         | 93.06        |
 
-### 🤖 Deep Learning Models
+### Deep Learning Models
 
 | Model | Accuracy (%) | Notes |
 |-------|--------------|-------|
@@ -94,36 +94,19 @@ This project explores the application of machine learning and deep learning tech
 | CNN   | 98.95        | Highest accuracy; great at local pattern detection |
 
 
-### ✅ Key Findings
+### Key Findings
 - **XGBoost** and **CNN** models achieved high accuracy and strong generalization.
 - Combining traditional ML with DL techniques improves detection performance significantly.
 
 
-### 📚 Project Contents
+### Project Contents
 
 - `notebook/` – Complete codebase and exploratory analysis  
 - `project_report/` – Detailed explanation of methods, models, and findings  
 - `presentation/` – Visual slides summarizing project goals, workflow, and outcomes
 
 ---
-
-## 🚀 Getting Started
-
-1.**Clone the repository**:
-   ```bash
-   git clone https://github.com/<your-username>/nlp-course.git
-   cd nlp-course
- ```
-2.**Install required dependencies**:
-   ```bash 
-pip install -r requirements.txt
- ```
-3.**Explore the labs or project notebooks using Jupyter**:
-   ```bash 
-jupyter notebook
- ```
----
-## 💡 Skills Gained
+## Skills Gained
 - Text preprocessing & feature extraction
 - Sentiment and topic classification
 - Word embeddings & semantic representation
@@ -133,7 +116,7 @@ jupyter notebook
 - Fake news detection with classical and deep models
 
 --- 
-## 👩🏻‍💻 Author
+## Author
 Developed by Araa Almarhabi as part of the Natural Language Processing course.
 
 
