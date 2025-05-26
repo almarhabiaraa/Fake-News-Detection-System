@@ -117,7 +117,7 @@ This project explores the application of machine learning and deep learning tech
 
 --- 
 ## Author
-Developed by Araa Almarhabi as part of the Natural Language Processing course.
+Developed by **Araa Almarhabi** as part of the **Natural Language Processing** course.
 
 
 
