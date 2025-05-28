@@ -1,74 +1,43 @@
-# Natural Language Processing (NLP) Course
+# Fake News Detection System 
+**Course:** CS4083 – Text Mining & Natural Language Processing (NLP)  
+**Developer:** Araa Almarhabi  
 
-Welcome to the **Natural Language Processing (NLP)** course repository! This repository contains a series of hands-on labs and a final project that explore core NLP concepts, techniques, and real-world applications using Python, Pandas, Scikit-learn, and Deep Learning.
 
----
+## Introduction
+This project investigates the application of machine learning (ML) and deep learning (DL) techniques to automatically detect fake news articles. By leveraging advanced natural language processing (NLP) tools and models, the system aims to classify news content as **real** or **fake** based on textual features.
+
+## Features
+
+- Uses machine learning and deep learning models to detect fake news accurately.
+- Converts news articles into numbers using TF-IDF and Word2Vec.
+- Organizes the project into clear folders for code, reports, and presentations.
+- Compares different models using accuracy and other performance measures.
+- Prepares text data by cleaning and processing it before training.
+- Supports multiple models like Logistic Regression, XGBoost, CNN, and LSTM.
+- Includes BERT-based topic modeling for deeper understanding of articles.
+- Shows easy-to-understand charts and graphs to explain results.
+- Covers all steps from data loading to final evaluation.
 
 ## Repository Structure
 
 ```bash
 .
-├── labs/         # Hands-on NLP lab exercises
-│   ├── lab1/     # Data Analysis with Pandas
-│   ├── lab2/     # NLP Pipeline + Text Preprocessing + BoW & TF-IDF
-│   ├── lab3/     # Regex & Word Embedding
-│   ├── lab4/     # Data-Centric vs Model-Centric + Product Review Classifier
-│   ├── lab5/     # Topic Modeling Using LDA
-│   └── lab6/     # Generative AI Use Case: Dialogue Summarization
-│
 └── project/      # Final project: Fake News Detection
-    ├── notebook/         # Jupyter notebooks for data analysis and modeling
+    ├── notebook/         # Jupyter notebooks for complete codebase and exploratory analysis  
     ├── project_report/   # Written report explaining methods and findings
     └── presentation/     # Final presentation slides
-
 ```
 
----
 
-## Labs Overview
-
-Each lab focuses on a different aspect of NLP:
-
-### Lab 1 – Data Analysis with Pandas
-- Learn the foundations of data analysis using the **Pandas** library, tailored for working with text datasets.
-
-### Lab 2 – Building an NLP Pipeline
-- **Dataset**: Twitter  
-- **Tasks**:
-  - Raw text preprocessing
-  - Cleaning and normalization
-  - Bag of Words (BoW) and TF-IDF feature extraction
-
-### Lab 3 – Regex and Word Embedding
-- Use **Regular Expressions** for text pattern extraction.
-- Apply **Word2Vec** to capture semantic meaning through word embeddings.
-
-### Lab 4 – Data-Centric vs Model-Centric Approaches
-- **Focus**: Product review classification (magazine category)
-- Understand the difference between:
-  - **Data-centric** approaches: improving data quality
-  - **Model-centric** approaches: enhancing model performance
-
-### Lab 5 – Topic Modeling Using LDA
-- Learn how to uncover hidden topics in a text corpus using **Latent Dirichlet Allocation (LDA)**.
-
-### Lab 6 – Generative AI Use Case
-- **Task**: Summarize dialogues
-- Leverage **generative models** to understand and compress conversational content.
-
----
-
-## Final Project – Fake News Detection
-
-This project explores the application of machine learning and deep learning techniques for detecting fake news.
 
 ### Dataset
-- **Source**: Kaggle Fake News Dataset (labeled real vs fake articles)
+- **Source**: Kaggle – Fake News Dataset
+- **Content**: Labeled articles classified as real or fake
 
 ### Techniques Used
-- **Text Representation**: TF-IDF, Word2Vec  
-- **Classification Models**: Logistic Regression, XGBoost  
-- **Advanced Modeling**: BERT-based topic modeling  
+- **Text Representation**: TF-IDF, and Word2Vec  
+- **Classification Models**: Logistic Regression, XGBoost, Support Vector Machines (SVM), Random Forest, Naive Bayes, Gradient Boosting, and Decision Tree 
+- **Advanced Modeling**: LSTM, GRU, CNN, and BERT-based topic modeling  
 - **Evaluation Metrics**: Accuracy, F1-score, and other performance indicators
 
 ## Model Performance Comparison
@@ -95,27 +64,16 @@ This project explores the application of machine learning and deep learning tech
 
 
 ### Key Findings
-- **XGBoost** and **CNN** models achieved high accuracy and strong generalization.
-- Combining traditional ML with DL techniques improves detection performance significantly.
+1. XGBoost and CNN achieved the highest accuracy, demonstrating strong generalization.
+2. Deep learning methods are effective for understanding textual patterns, but combining them with traditional ML can yield optimal results.
+3. Feature representation (like TF-IDF or Word2Vec) significantly affects model performance.
 
 
-### Project Contents
+  
+## Reflection
+This project provided a hands-on opportunity to explore the intersection of NLP and classification models. Understanding how different techniques interpret textual information, and evaluating their effectiveness, was a valuable learning experience in real-world text mining applications.
 
-- `notebook/` – Complete codebase and exploratory analysis  
-- `project_report/` – Detailed explanation of methods, models, and findings  
-- `presentation/` – Visual slides summarizing project goals, workflow, and outcomes
 
----
-## Skills Gained
-- Text preprocessing & feature extraction
-- Sentiment and topic classification
-- Word embeddings & semantic representation
-- Regular expressions for NLP
-- Topic modeling with LDA
-- Generative AI and summarization
-- Fake news detection with classical and deep models
-
---- 
 ## Author
 Developed by **Araa Almarhabi** as part of the **Natural Language Processing** course.
 
