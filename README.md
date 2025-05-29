@@ -25,6 +25,7 @@ This project investigates the application of machine learning (ML) and deep lear
 └── project/      # Final project: Fake News Detection
     ├── notebook/         # Jupyter notebooks for complete codebase and exploratory analysis  
     ├── project_report/   # Written report explaining methods and findings
+    ├── nlp_poster/       # Project Poster 
     └── presentation/     # Final presentation slides
 ```
 
